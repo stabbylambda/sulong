@@ -138,11 +138,11 @@ Next, you need to download a recent
 [labsjdk](http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html).
 Extract it inside the `sulong-dev` directory:
 
-    tar -zxf labsjdk-8u121-jvmci-0.29-linux-amd64.tar.gz
+    tar -zxf labsjdk-8u171-jvmci-0.43-linux-amd64.tar.gz
 
 Set `JAVA_HOME` to point to the extracted labsjdk from above:
 
-    echo JAVA_HOME=`pwd`/labsjdk1.8.0_121-jvmci-0.29 > sulong/mx.sulong/env
+    echo JAVA_HOME=`pwd`/labsjdk1.8.0_171-jvmci-0.43 > sulong/mx.sulong/env
 
 Sulong partially consists of C/C++ code that is compiled using `make`. To speed
 up the build process you can edit the `MAKEFLAGS` environment variable:
